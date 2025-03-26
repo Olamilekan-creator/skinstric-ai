@@ -27,10 +27,6 @@
     margin: 0 auto;
 }
 
-.nav__container:hover {
-    border: 2px solid #0000ff;
-}
-
 .nav__landing {
     display: flex;
     justify-content: space-between;
@@ -259,7 +255,7 @@ width: 100%;
 .web__text {
     font-size: 16px;
     font-weight: 600;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .web__box--wrapper {
@@ -551,6 +547,7 @@ margin-top: 40%;
     display: flex;
     justify-content: space-between;
     margin: 19% 0;
+    align-items: center;
 }
 
 .text__cam {
@@ -782,6 +779,7 @@ color: #fcfcfc;
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
+    align-items: center;
 }
 
 .picture__front--text {
@@ -892,6 +890,7 @@ margin: 0 auto;
     font-size: 12px;
     line-height: 2;
     font-weight: 400;
+    margin-top: 10px;
 }
 
 .four__box {
@@ -899,6 +898,16 @@ margin: 0 auto;
     background-color: #f3f3f4;
     width: 153px;
     height: 153px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four__box:hover {
+    background-color: #e1e1e2;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .four__wrapper {
@@ -907,9 +916,67 @@ margin: 0 auto;
     gap: 5px;
 }
 
-.four__box--container {
-    gap: 5px;
+.box__text--1,
+.box__text--2,
+.box__text--3,
+.box__text--4 {
+transform: rotate(-45deg);
+font-size: 16px;
+font-weight: 500;
 }
+
+.prepare__box--wrapper {
+    display: flex;
+    justify-content: center;
+   margin-top: 10%;
+   align-items: center;
+}
+
+.prepare {
+    display: flex;
+    justify-content: space-between;
+    margin: 16% 0;
+    align-items: center;
+}
+
+.reset__btn {
+padding: 7px 20px;
+font-size: 12px;
+font-weight: 500;
+background-color: #fcfcfc;
+margin-right: 10px;
+}
+
+.confirm__btn {
+    padding: 7px 20px;
+font-size: 14px;
+font-weight: 500;
+background-color: black;
+color: #fcfcfc;
+}
+
+.estimate {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.demographics__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.east__asian,
+.race__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
 
 
 
