@@ -45,6 +45,8 @@
 .text {
     font-size: 14px;
     font-weight: 600;
+    color: #242424;
+   text-decoration: none;
 }
 
 .tiny__text {
@@ -79,10 +81,11 @@
     font-weight: 300;
     max-width: 100%;
     margin: 0 auto;
+    width: 100%;
 }
 
 .skincare {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -106,21 +109,10 @@ padding: 1px 20px;
 gap: 20px;
 }
 
-.fas {
-transform: rotate(-45deg);
+.take__test--box {
+   
 }
 
-.left__text {
-    font-size: 16px;
-    font-weight: 400;
-    transform: rotate(-45deg);
-}
-
-.right__text {
-    font-size: 16px;
-    font-weight: 400;
-    transform: rotate(45deg);
-}
 
 .arrow__next {
     transform: rotate(-45deg);
@@ -141,10 +133,6 @@ top: 10%;
 right: -30%;
 position: absolute;
 overflow: hidden;
-}
-
-.far {
-    transform: rotate(45deg);
 }
 
 .fa-solid {
@@ -289,6 +277,7 @@ width: 100%;
     transform: rotate(-45deg);
     position: absolute;
 }
+
 .web__box2 {
     border: 1px dotted #242424;
     height: 450px;
@@ -414,7 +403,6 @@ width: 100%;
 .analysis__back {
     display: flex;
     gap: 30px;
-    margin: 24% 0;
 }
 
 .analysis__box--wrapper {
@@ -436,11 +424,11 @@ width: 100%;
 .analysis {
     display: flex;
     justify-content: space-between;
+    margin: 24% 0;
 }
 
 .analysis__front {
     display: flex;
-    margin: 24% 0;
     gap: 30px;
 }
 
@@ -470,6 +458,460 @@ width: 100%;
     height: 60px;
     margin: 0 150px;
 }
+
+/* Camera */
+
+.cam__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.cam__box--wrapper {
+    display: flex;
+   margin-top: 25%;
+   align-items: center;
+   justify-content: center;
+}
+
+.cam__box1 {
+    border: 0.5px dotted #242424;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+.cam__box2 {
+    border: 1px dotted #242424;
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin: 25px 25px;
+}
+
+.cam__box3 {
+    border: 2px dotted #242424;
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin: 50px 50px;
+}
+
+.group {
+display: flex;
+flex-direction: column;
+margin-top: 40%;
+}
+
+.group__img {
+    width: 70px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.group__text {
+    font-size: 13px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+.cam__back {
+    display: flex;
+    gap: 30px;
+    margin: 7% 0;
+}
+
+.cam__analysis {
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0;
+}
+
+.camera {
+    border: 2px solid #242424;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.gallery,
+.shutter {
+    padding: 7px 7px;
+}
+
+.cam__cam--analysis {
+    display: flex;
+    justify-content: space-between;
+    margin: 19% 0;
+}
+
+.text__cam {
+    position: absolute;
+    margin: 18% 0;
+    padding-right: 100px;
+}
+
+.allow__text {
+    margin-bottom: 35px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+/* Setting up camera */
+
+.set__box1 {
+    border: 0.5px dotted #242424;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    transform: rotate(-60deg);
+    position: absolute;
+}
+
+.set__box2 {
+    border: 1px dotted #242424;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    transform: rotate(-50deg);
+    position: absolute;
+    margin: 25px 25px;
+}
+
+.set__box3 {
+    border: 2px dotted #242424;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: rotate(-37deg);
+    position: absolute;
+    margin: 50px 50px;
+}
+
+.set__cam {
+    border: 2px solid #242424;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.set__text {
+    position: absolute;
+   margin-top: 36.5%;
+}
+
+.set__text--subtitle1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.set__text--text {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+
+.fa-diamond {
+    font-size: small;
+}
+
+.subtitle__text1 {
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+.set__text--title {
+    font-size: 12px;
+    font-weight: 400;
+   padding: 0 180px;
+}
+
+.set__up {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.set__box--wrapper {
+    display: flex;
+   margin-top: 25%;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.set__container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Capture */
+
+.face__container {
+    width: 100%;
+    border: 2px solid black;
+    height: 100vh;
+    background-color: #cdcecc;
+    backdrop-filter: blur(20px);
+     overflow: hidden;
+     margin: 0 auto;
+}
+
+.face__row {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.face__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+   width: 230px;
+  border-radius: 35px;
+  background-color: #d9d9d9;
+  border: none;
+}
+
+.clock__container {
+    border: 0.5px solid #a0a4ab;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #a0a4ab;
+}
+
+.clock {
+    margin: 9px 12px;
+    width: 25px;
+    background-color: #a0a4ab;
+}
+
+.ellipse {
+    position: relative;
+    border: 1px solid white;
+    width: 499px;
+    height: 616px;
+    border-radius: 50%;
+    background-color: #fcfcfc;
+}
+
+.ellipse__text {
+position: absolute;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.picture__container {
+    border: 1px solid #fcfcfc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.picture__icon {
+    margin: 10px 10px;
+    width: 25px;
+}
+
+.picture__icon--icon {
+border: 1px solid #fcfcfc;
+width: 46px;
+height: 46px;
+border-radius: 50%;
+margin: 1px 1px;
+background-color: #fcfcfc;
+}
+
+.count,
+.picture__text,
+.ellipse__text {
+font-size: 14px;
+font-weight: 600;
+text-decoration: none;
+color: #fcfcfc;
+}
+
+.head__text {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.head__tiny--text {
+    color: #fcfcfc;
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+.cam__back {
+    display: flex;
+    gap: 30px;
+    margin: 7% 0;
+}
+
+.picture__analysis {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.picture__front--text {
+    display: flex;
+    gap: 30px;
+}
+
+.picture__back {
+    display: flex;
+    gap: 30px;
+}
+
+.picture__back--box {
+    border: 1px solid #fcfcfc;
+    padding: 5px 20px;
+    transform: rotate(45deg);
+    margin: -10px 0;
+}
+
+.picture__back--text {
+    color: #fcfcfc;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.picture__back--back {
+    transform: rotate(-45deg);
+    margin: 5px -5px;
+    color: #fcfcfc;
+}
+
+.picture__front--text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fcfcfc;
+}
+
+.picture__front {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.picture__front--box {
+    border: 1px solid #fcfcfc;
+    padding: 5px 20px;
+    transform: rotate(45deg);
+    margin: -10px 0;
+}
+
+.picture__front--back {
+    transform: rotate(-45deg);
+    margin: 5px -5px;
+}
+
+.option__container {
+font-size: 14px;
+font-weight: 400;
+color: #fcfcfc;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.option__subtitle--wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.option__subtitle--icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.diamond__icon {
+    font-size: 10px;
+}
+
+.second__front--text {
+    display: flex;
+    gap: 30px;
+    display: none;
+}
+
+.hold__count {
+}
+
+.number__count {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.number1,
+.number3 {
+    font-size: 40px;
+}
+
+.number2 {
+    font-size: 64px;
+}
+
+/* Preparing */
+
+.prepare__text {
+    font-size: 12px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.four__box {
+    border: 1px solid #f3f3f4;
+    background-color: #f3f3f4;
+    width: 153px;
+    height: 153px;
+}
+
+.four__wrapper {
+    display: flex;
+    transform: rotate(45deg);
+    gap: 5px;
+}
+
+.four__box--container {
+    gap: 5px;
+}
+
+
 
 
 
