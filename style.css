@@ -371,7 +371,6 @@ flex-direction: column;
   .box2,
   .box3{
    right: 0;
-   display: flex;
    justify-content: center;
   }
 .para__text {
