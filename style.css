@@ -116,15 +116,7 @@
   border: 1px solid #242424;
 }
 
-.arrow__next {
-  border: 2px dotted #242424;
-  height: 500px;
-  width: 500px;
-  transform: rotate(-45deg);
-  top: 20%;
-  right: -15%;
-  position: absolute;
-}
+
 
 .fa-solid {
   font-size: 20px;
@@ -239,6 +231,22 @@ right: -15%;
   position: absolute;
   transform: rotate(-45deg);
   position: absolute;
+}
+
+.box1:hover {
+  display: block;
+}
+
+.box2:hover {
+  display: block;
+}
+
+.small__box2:hover {
+  display: block;
+}
+
+.small__box1:hover {
+
 }
 
 .box3 {
@@ -926,13 +934,17 @@ flex-direction: column;
 }
 
 .ellipse__text {
-  position: absolute;
+display: flex;
+justify-content: center;
+margin-top: 10vh;
 }
 
 .picture {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   gap: 20px;
+  margin-top: 30vh;
 }
 
 .picture__container {
@@ -985,8 +997,8 @@ flex-direction: column;
 .picture__analysis {
   display: flex;
   justify-content: space-between;
-  margin: 5% 0;
-  align-items: center;
+  align-items: end;
+  margin-top: 34vh;
 }
 
 .picture__front--text {
@@ -1059,6 +1071,14 @@ flex-direction: column;
   gap: 10px;
   align-items: center;
   margin: 20px 0;
+  font-size: 12px;
+  font-weight: 350;
+  color: #fcfcfc;
+}
+
+
+.option__subtitle--icon:hover {
+  color: #808080;
 }
 
 .diamond__icon {
@@ -1071,30 +1091,6 @@ flex-direction: column;
   display: none;
 }
 
-.hold__count {
-}
-
-.number__count {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-}
-
-.number1,
-.number3 {
-  font-size: 40px;
-}
-
-.number2 {
-  font-size: 64px;
-}
-
-.option__title {
-  display: flex;
-  justify-content: center;
-}
 
 /* Tablet, smartphones, small smartphones */
 
@@ -1121,15 +1117,10 @@ flex-direction: column;
     width: 100%;
     margin: 0 auto;
   }
-  .face__wrapper {
-    padding: 1px 0;
-    gap: 20px;
-  }
+ .ellipse__text {
+  margin-top: 5vh;
+ }
 
-  .option__subtitle--wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 @media (max-width: 430px) {
@@ -1138,19 +1129,10 @@ flex-direction: column;
     width: 100%;
     margin: 0 auto;
   }
-  .face__wrapper {
-    flex-direction: column;
-  }
+ .picture__analysis {
+  margin-top: 27vh;
+ }
 
-  .option__subtitle--wrapper {
-    flex-direction: column;
-    gap: none;
-  }
-
-  .ellipse {
-    height: 400px;
-    width: 300px;
-  }
 }
 
 /* Preparing */
